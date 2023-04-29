@@ -28,6 +28,7 @@ Next step is to convert json format annotations into YOLO format.
     
 
 Now, Dataset is ready. Clone this github repo: 
+
         git clone https://github.com/AarohiSingla/YOLOv7-POSE-on-Custom-Dataset
 
         cd YOLOv7-POSE-on-Custom-Dataset
