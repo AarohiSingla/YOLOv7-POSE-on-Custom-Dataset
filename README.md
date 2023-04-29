@@ -42,13 +42,13 @@ Now,Installing coco-annotator using docker:
         
         Place your dataset folder in this repo.
         
-        ## Make all the changes which are mentioned in this video: https://youtu.be/OP-oiDsEVzc
+### Make all the changes which are mentioned in this video: https://youtu.be/OP-oiDsEVzc
         
-        For Training: 
-            !python train.py --data data/custom_kpts.yaml --cfg cfg/yolov7-w6-pose_custom.yaml --hyp data/hyp.pose.yaml --device 0 --kpt-label --epochs 600
+For Training: 
+      !python train.py --data data/custom_kpts.yaml --cfg cfg/yolov7-w6-pose_custom.yaml --hyp data/hyp.pose.yaml --device 0 --kpt-label --epochs 600
             
-        For Keypoint Detection: 
-            !python detect.py --weights runs/train/exp3/weights/best.pt --kpt-label --source 1.jpg --conf 0.030 --iou 0.30
+For Keypoint Detection: 
+     !python detect.py --weights runs/train/exp3/weights/best.pt --kpt-label --source 1.jpg --conf 0.030 --iou 0.30
 
 
 
