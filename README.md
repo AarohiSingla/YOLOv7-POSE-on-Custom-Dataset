@@ -1,4 +1,4 @@
-# YOLOv7-POSE-on-Custom-Dataset
+# YOLOv7-Pose-on-Custom-Dataset
 Keypoint detection on custom dataset. We have 1 class - Glass and it have 4 keypoints. Ithis this tutorial we will train our yolov7 model to detect these 4 custom keypoints
 ![image](https://user-images.githubusercontent.com/60029146/235298070-9b18bd05-64f6-4957-8c2b-f8e6faeacd13.png)
 
