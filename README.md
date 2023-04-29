@@ -4,14 +4,21 @@ Keypoint detection on custom dataset. We have 1 class - Glass and it have 4 keyp
 
 # Data Prepration:
 
+Install Docker on your system if you haven't already. You can download it from the official website: https://www.docker.com/get-started
 
-git clone https://github.com/jsbroks/coco-annotator.git 
-cd coco-annotator 
-docker-compose up
-http://localhost:5000/
-Learn how to annotate: https://www.youtube.com/watch?v=OMJRcjnMMok&t=1s  
+Now,Installing coco-annotator using docker:
 
-![image](https://user-images.githubusercontent.com/60029146/235296139-54d1a85f-6779-4d88-8fbf-5d4e2795d972.png)
+    git clone https://github.com/jsbroks/coco-annotator.git 
+
+    cd coco-annotator 
+
+    docker-compose up
+
+    http://localhost:5000/
+
+    Learn how to annotate: https://www.youtube.com/watch?v=OMJRcjnMMok&t=1s  
+
+
 
 
 ![5](https://user-images.githubusercontent.com/60029146/235296118-d8b17771-da40-4285-b68e-a71a10938297.jpg)
