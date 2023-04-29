@@ -1,6 +1,9 @@
 # YOLOv7-POSE-on-Custom-Dataset
 Keypoint detection on custom dataset. We have 1 class - Glass and it have 4 keypoints. Ithis this tutorial we will train our yolov7 model to detect these 4 custom keypoints
-![1](https://user-images.githubusercontent.com/60029146/235296038-85241cc6-c3e6-4666-bd47-02e5d107624b.jpg)
+![image](https://user-images.githubusercontent.com/60029146/235298070-9b18bd05-64f6-4957-8c2b-f8e6faeacd13.png)
+
+
+
 
 # Data Prepration:
 
@@ -22,8 +25,10 @@ Now,Installing coco-annotator using docker:
 Next step is to convert json format annotations into YOLO format. 
 
     Ref for conversion: https://github.com/WongKinYiu/yolov7/issues/1103
+    
 
-git clone 
+
+git clone https://github.com/AarohiSingla/YOLOv7-POSE-on-Custom-Dataset
 
 ![5](https://user-images.githubusercontent.com/60029146/235296118-d8b17771-da40-4285-b68e-a71a10938297.jpg)
 
