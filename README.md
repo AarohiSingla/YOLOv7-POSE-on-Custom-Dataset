@@ -24,12 +24,23 @@ Now,Installing coco-annotator using docker:
 
 Next step is to convert json format annotations into YOLO format. 
 
-    Ref for conversion: https://github.com/WongKinYiu/yolov7/issues/1103
+    Refernce for conversion:  https://github.com/WongKinYiu/yolov7/issues/1103
     
 
+Now, Dataset is ready. Clone this github repo: 
+        git clone https://github.com/AarohiSingla/YOLOv7-POSE-on-Custom-Dataset
 
-git clone https://github.com/AarohiSingla/YOLOv7-POSE-on-Custom-Dataset
+        cd YOLOv7-POSE-on-Custom-Dataset
 
-![5](https://user-images.githubusercontent.com/60029146/235296118-d8b17771-da40-4285-b68e-a71a10938297.jpg)
+        pip install -r requirements.txt
+        
+        Place your dataset folder in this repo.
+        
+Make all the changes which are mentioned in this video: 
 
 
+
+Reference: 
+        https://github.com/WongKinYiu/yolov7/tree/pose
+
+        https://github.com/ruiz-manuel/yolov7-pose-custom               
